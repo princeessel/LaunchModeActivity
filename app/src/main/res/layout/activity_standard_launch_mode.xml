@@ -1,0 +1,27 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StandardLaunchModeActivity"
+    android:orientation="vertical">
+
+<Button
+    android:id="@+id/standardMode"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:onClick="onClick"
+    android:text="Standard Launch Mode" />
+
+    <Button
+        android:id="@+id/singleTop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:text="Single Top Mode" />
+
+
+</LinearLayout>
